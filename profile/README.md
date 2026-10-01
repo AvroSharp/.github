@@ -2,7 +2,7 @@
 
 **A high-performance .NET implementation of the [Apache Avro™](https://avro.apache.org/) specification**, with source-generated serializers, schema evolution, container files with every codec, and schema-registry framing. It is faster than Apache.Avro on every benchmark it is measured on, allocates no more, and works with Native AOT and trimming.
 
-**[Documentation](https://avrosharp.github.io/AvroSharp/)** · [Getting started](https://github.com/AvroSharp/AvroSharp#getting-started) · [API reference](https://avrosharp.github.io/AvroSharp/docs/api/index.html) · [Samples](https://github.com/AvroSharp/AvroSharp/tree/main/samples) · [Migrating from Apache.Avro](https://avrosharp.github.io/AvroSharp/docs/migrating-from-apache-avro.html)
+**[Documentation](https://avrosharp.github.io/AvroSharp/)** · [Getting started](https://github.com/AvroSharp/AvroSharp#getting-started) · [API reference](https://avrosharp.github.io/AvroSharp/docs/api/index.html) · [Benchmarks](https://avrosharp.github.io/AvroSharp/docs/benchmarks.html) · [Compared with Apache.Avro](https://avrosharp.github.io/AvroSharp/docs/apache-avro.html) · [Samples](https://github.com/AvroSharp/AvroSharp/tree/main/samples) · [Migrating from Apache.Avro](https://avrosharp.github.io/AvroSharp/docs/migrating-from-apache-avro.html)
 
 ## Packages
 
