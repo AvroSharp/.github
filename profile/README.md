@@ -15,17 +15,13 @@ From the [AvroSharp](https://github.com/AvroSharp/AvroSharp) repository, for .NE
 | [AvroSharp.Tool](https://www.nuget.org/packages/AvroSharp.Tool) | `avrosharp`, the `dotnet tool`: code generation, canonical forms and fingerprints |
 | [AvroSharp.Codecs](https://www.nuget.org/packages/AvroSharp.Codecs) | The snappy, zstandard, bzip2 and xz codecs, fully managed |
 | [AvroSharp.CodeGen](https://www.nuget.org/packages/AvroSharp.CodeGen) | The code generation engine, for your own tools |
+| [AvroSharp.Confluent](https://github.com/AvroSharp/AvroSharp/tree/main/src/AvroSharp.Confluent) | Confluent Schema Registry serializers for Confluent.Kafka, without Apache.Avro (new in the 1.0.0 release candidates) |
 
 ## Integrations
 
-Add-on packages for the clients and frameworks applications already use, each in its own repository. They start after AvroSharp 1.0.
-
-| Repository | For |
-|---|---|
-| [AvroSharp.Confluent](https://github.com/AvroSharp/AvroSharp.Confluent) | Confluent.Kafka with Confluent Schema Registry, and registries with its API |
-| [AvroSharp.KafkaFlow](https://github.com/AvroSharp/AvroSharp.KafkaFlow) | KafkaFlow producers and consumers |
-| [AvroSharp.Azure.SchemaRegistry](https://github.com/AvroSharp/AvroSharp.Azure.SchemaRegistry) | Azure Schema Registry with Event Hubs and Service Bus |
-| [AvroSharp.Aws.Glue](https://github.com/AvroSharp/AvroSharp.Aws.Glue) | AWS Glue Schema Registry, fully managed |
+Add-on packages plug AvroSharp into the clients and frameworks applications already use. They live in the AvroSharp repository too, and are released with it at the same version:
+- [AvroSharp.Confluent](https://github.com/AvroSharp/AvroSharp/tree/main/src/AvroSharp.Confluent), for Confluent.Kafka with Confluent Schema Registry and registries with its API, is in the release candidates.
+- Planned: KafkaFlow ([#154](https://github.com/AvroSharp/AvroSharp/issues/154)), Azure Schema Registry ([#155](https://github.com/AvroSharp/AvroSharp/issues/155)) and AWS Glue Schema Registry ([#156](https://github.com/AvroSharp/AvroSharp/issues/156)).
 
 The [integrations page](https://avrosharp.github.io/AvroSharp/docs/integrations.html) has the plan, and what works today. Feature requests and questions are welcome in [the issues](https://github.com/AvroSharp/AvroSharp/issues).
 
